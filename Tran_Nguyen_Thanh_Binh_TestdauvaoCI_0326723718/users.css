@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top{
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.top-tool{
+    display: flex;
+    align-items: center;
+}
+
+.top-tool-select{
+    margin-left: 20%;
+}
+
+input{
+    width: 15rem;
+    margin: 20px auto;
+    padding: 1rem;
+    padding-left: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #444;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+
+}
+
+button{
+    border-radius: 8px;
+    margin: 5px;
+    color: black;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 7rem;
+    background-color: #fff;
+}
+
+button:hover{
+    background-color: #849FFF;
+    color:#fff;
+}
+
+.Lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: gray;
+    width: 25%;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.list-user{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.list-user-info{
+    padding-left: 20px;
+    flex: 1;
+}
+
+.note{
+    padding-top: 20px;
+}
+
+.note span{
+    padding: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #BFC8E6;
+    color: #516FD4;
+}
+
